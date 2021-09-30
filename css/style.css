@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 94%);
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+}
+
+/* ---------------------------------------------- */
+/* HEADER */
+/* ---------------------------------------------- */
+
+header {
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+span {
+  font-weight: 200;
+}
+
+header p {
+  display: inline-block;
+  margin: 20px 0 50px 0;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* ---------------------------------------------- */
+/* CARD STYLES */
+/* ---------------------------------------------- */
+
+.card-columns {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.col {
+  width: 400px;
+}
+
+.col-1,
+.col-3 {
+  align-self: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 10px 15px hsl(0, 0%, 82%);
+}
+
+/* clearfix */
+.card:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 80px;
+}
+
+.card img {
+  position: relative;
+  bottom: 20px;
+  float: right;
+}
+
+.sup-card {
+  border-top: 5px solid hsl(180, 62%, 55%);
+  padding: 25px 50px 0 25px;
+}
+
+.team-card {
+  border-top: 5px solid hsl(0, 78%, 62%);
+  padding: 25px 50px 0 25px;
+  margin-bottom: 25px;
+}
+
+.karma-card {
+  border-top: 5px solid hsl(34, 97%, 64%);
+  padding: 25px 50px 0 25px;
+}
+
+.calc-card {
+  border-top: 5px solid hsl(212, 86%, 64%);
+  padding: 25px 50px 0 25px;
+}
